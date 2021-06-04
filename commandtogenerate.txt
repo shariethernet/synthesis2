@@ -1,1 +1,5 @@
 java -jar /d/RISC-V/tlverilog/SandPiper_1.9-2018_02_11-beta_distro/target/sandpiper.jar --verbose --graphTrans --graphDesign -i top.m4 -o mytop.sv
+
+yosys commands used
+
+read_verilog -sv mytop.sv
